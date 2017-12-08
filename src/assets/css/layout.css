@@ -1,0 +1,106 @@
+#page-right-wrapper {
+	width: 30%;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	height: 100%;
+	overflow: scroll;
+	padding: 25px;
+	box-sizing: border-box;
+}
+
+#page-bottom-wrapper {
+	position: relative;
+	bottom: 0px;
+	width: 100%;
+}
+
+#page-left-wrapper {
+	width: 350px;
+	position: absolute;
+	left: 25px;
+	top: 370px;
+}
+
+.loader {
+	width: 100%;
+	height: 50px;
+	background-image: url(../img/loader.gif);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	margin-top: 25px;
+}
+.middle-wrapper {
+	position: absolute;
+	text-align: center;
+	width: 600px;
+	top: 800px;
+	left: 400px;
+}
+.left-block{
+	float: left;
+	width: 40%;
+	text-align: center;
+}
+.right-block{
+	float: left;
+	width: 60%;
+	padding: 5px 10px;
+	box-sizing: border-box;
+	text-align: left;
+}
+.result_item {
+	overflow: hidden;
+	margin-bottom: 15px !important;
+	border-bottom: 1px dotted rgba(0,0,0,0.3);
+	padding-bottom: 1px;
+}
+.get-direction a {
+	width: 100px;
+	border: 1px solid;
+	text-align: center;
+	padding: 5px;
+	font-weight: bold;
+	background: rgba(33,33,33,.8);
+	color: #fff;
+}
+.get-direction a:hover {
+	background: rgba(133,133,33,.8);
+
+}
+.visit_vaxjo p{
+	  font-weight: bold;
+	  font-size: 14px;
+  }
+.visit_vaxjo ul{
+	margin: 10px 25px;
+}
+.sebm-google-map-container .sebm-google-map-container-inner {
+	width: 100%!important;
+}
+@media screen and (max-width: 1200px) {
+	#page-right-wrapper {
+		width: 40%;
+	}
+	.sebm-google-map-container {
+		width: 60%!important;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	#page-right-wrapper {
+		width: 45%;
+	}
+	.sebm-google-map-container {
+		width: 55%!important;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#page-right-wrapper {
+		width: 50%;
+	}
+	.sebm-google-map-container{
+		width: 50%!important;
+	}
+}

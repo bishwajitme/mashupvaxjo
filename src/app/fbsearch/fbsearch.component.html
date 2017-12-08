@@ -1,0 +1,13 @@
+<div style="background-color: rgba(255, 255, 255, 0.85098); border: 1px solid rgb(219, 219, 219); padding: 25px; margin-bottom: 25px;">
+  <h2>Looking for Hotel, Cafe, Restaurant, Educational Institution?</h2>
+  <p>Here you can search for anything, system will show results based on people's Facebook checked-in.</p>
+  <hr>
+  <input #searchInput placeholder="Cafe" style="padding: 10px 5px; width: 100%;">
+  <button (click)="onSearch(searchInput)">Search</button>
+  <div #target style="margin-top: 20px;">
+
+    <h3 *ngIf="noResult" style="margin-bottom: 15px;">No result found...</h3>
+    <p *ngIf="noResult" > Try a different search term and see if you have better luck.</p>
+
+  </div>
+</div>

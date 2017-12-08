@@ -1,0 +1,8 @@
+.sebm-google-map-container {
+  position: absolute;
+  width: 70%;
+  height: 100%;
+}
+.sebm-google-map-container .sebm-google-map-container-inner {
+  width: 100%!important;
+}

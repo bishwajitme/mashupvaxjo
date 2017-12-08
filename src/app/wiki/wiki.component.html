@@ -1,0 +1,15 @@
+<div style="background-color: rgba(255, 255, 255, 0.85098); border: 1px solid rgb(219, 219, 219); padding: 25px; margin-bottom: 25px;">
+  <h2>Find, discover, and explore knowledge on Wikipedia.</h2>
+  <p>Search here, result will render from wiki.</p>
+  <hr>
+  <input #wikiInput placeholder="Växjö" style="padding: 10px 5px; width: 100%;">
+  <button (click)="onSearch(wikiInput)">Search</button>
+  <div #target style="margin-top: 20px;">
+
+    <h3 *ngIf="noResult" style="margin-bottom: 15px;">No result found...</h3>
+    <p *ngIf="noResult" > Try a different term and see if you have better luck.</p>
+
+  </div>
+</div>
+
+
