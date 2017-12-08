@@ -1,8 +1,8 @@
-# vxo@hand mashup with Angular2
+# vxo@hand mashup with Angular2 by bishwajit
 ## Installation notes
 In order ro run this project you need have [Node.js](https://nodejs.org) installed.
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.19-3.
+This project was generated with [angular-cli](https://mashupvaxjo.firebaseapp.com/) version 1.0.0-beta.19-3.
 Therefore, in order to run this project you need to install this version. Most probably it isn necessary to downgrade the angular-cli version if you have already installed it.
 Please perform the following commands in order to downgrade and install the correct angular-cli version:
 ```
