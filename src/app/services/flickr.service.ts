@@ -6,7 +6,7 @@ import 'rxjs/Rx';
 @Injectable()
 export class FlickrService {
 
-  APIKey:string = "de2bb56442579c1a92a25726cd5223d4";
+  APIKey:string = "de2bb56442579c1a92a2572fffg6cd5223d4";
 
   constructor(public http:Http){ 
 
