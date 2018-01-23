@@ -6,8 +6,8 @@ import 'rxjs/Rx';
 @Injectable()
 export class FoursquareService {
 
-    ClientID:string = "BOI4GRNURNA3LB3033GVEWVIQ44RI1CTV401URK3QU1KMBCH";
-    ClientSecretID:string = "PK2AFHZ1GJQK5BYFDCMZXGCRO3EXII13JYVQNV3DFSQHOBYI";
+    ClientID:string = "BOI4GRNURNA3LB3033GVEWVIQ44401URK3QU1KMBCH";
+    ClientSecretID:string = "PK2AFHZ1GJQK5BYFDCMZX3EXII13JYVQNV3DFSQHOBYI";
     public sharedFoursquareData = {};
     private componentMethodCallSq = new Subject<any>();
     componentMethodCalledSq$ = this.componentMethodCallSq.asObservable();
